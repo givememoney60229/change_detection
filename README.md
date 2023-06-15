@@ -1,4 +1,4 @@
-This is a final project from NCKU Taiwan, and we modify the  HyperNet: Self-Supervised Hyperspectral SpatialSpectral Feature Understanding Network for Hyperspectral Change Detection
+This is a final project from NCKU Taiwan, and we modify the  HyperNet: Self-Supervised Hyperspectral Spatial Spectral Feature Understanding Network for Hyperspectral Change Detection
 from IEEE TGRS paper to achieve better performance by adding transformer encoder, very thank to the author release the code to  implement HyperNet
 
 Our other peer methods and source codes are from as follows:
