@@ -13,7 +13,13 @@ https://github.com/SYFYN0317/CSANet
 
 https://github.com/yanhengwang-heu/IEEE_TGRS_SSTFormer
 
-we only modify HyperNet and the others methods is the same, so we only upload our modified version HyerNet code.
+We use the baseline transformer from:
+4.Hyperspectral Unmixing Using Transformer Network(IEEE TRANSACTIONS ON GEOSCIENCE AND REMOTE SENSING, VOL. 60, 2022)
+https://github.com/preetam22n/DeepTrans-HSU
+
+and use linear transform tokenization by ourself. We only modify HyperNet and the others methods is the same, so we only upload our modified version HyerNet code.
+Many thanks to the above authors for their paper and code to help us to accomplish 
+
 
 
 
