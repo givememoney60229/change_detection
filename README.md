@@ -1,36 +1,19 @@
-# HyperNet: Self-Supervised Hyperspectral SpatialSpectral Feature Understanding Network for Hyperspectral Change Detection
-Pytorch implementation of TGRS paper "HyperNet: Self-Supervised Hyperspectral SpatialSpectral Feature Understanding Network for Hyperspectral Change Detection"
-![image](https://github.com/meiqihu/HyperNet/blob/main/Figure-HyperNet.jpg)
-# Paper
-[HyperNet: Self-Supervised Hyperspectral SpatialSpectral Feature Understanding Network for Hyperspectral Change Detection](https://ieeexplore.ieee.org/document/9934933)
+This is a final project from NCKU Taiwan, and we modify the  HyperNet: Self-Supervised Hyperspectral SpatialSpectral Feature Understanding Network for Hyperspectral Change Detection
+from IEEE TGRS paper to achieve better performance by adding transformer encoder, very thank to the auther releease the code to  implement HyperNet
 
-Please cite our paper if you find it useful for your research.
+Our other peer methods and source code is from as follows:
 
->@ARTICLE{9934933,
-  author={Hu, Meiqi and Wu, Chen and Zhang, Liangpei},
-  journal={IEEE Transactions on Geoscience and Remote Sensing}, 
-  title={HyperNet: Self-Supervised Hyperspectral Spatial–Spectral Feature Understanding Network for Hyperspectral Change Detection}, 
-  year={2022},
-  volume={60},
-  number={},
-  pages={1-17},
-  doi={10.1109/TGRS.2022.3218795}}
-# Installation
-Install Pytorch 1.10.2 with Python 3.6
-# Dataset
-Download the [dataset of Viareggio 2013 and Simulated Hymap for HACD task, and USA, Bay, and Barbara dataset for HBCD task](https://pan.baidu.com/s/1RZWQC6kr4831M-yz9QWCHA),passcode提取密码：r9yt
-链接：https://pan.baidu.com/s/1RZWQC6kr4831M-yz9QWCHA 
-提取码：r9yt
-> Viareggio_data.mat
-> 
-> num_idx_ex1.mat, num_idx_ex2.mat
-> 
-> Bay.mat
-> 
-> num_idx_Bay.mat
+1.MSDFFN :Multi-scale Diff-Changed Feature Fusion Network for Hyper spectral Image Change Detection (IEEE TRANSACTIONS ON GEOSCIENCE AND REMOTE SENSING, VOL. 61, 2023 )
+https://github.com/Zhoutya/ChangeDetection-MSDFFN
 
-# More
-[My personal google web](https://scholar.google.com.hk/citations?hl=zh-CN&user=jxyAHdkAAAAJ)
+2.CSANet: Cross-Temporal Interaction Symmetric Attention Network for Hyperspectral Image Change Detection (IEEE GEOSCIENCE AND REMOTE SENSING LETTERS, VOL. 19, 2022 )
+https://github.com/SYFYN0317/CSANet
+
+3.SST-Former:Spectral–Spatial–Temporal Transformers for Hyperspectral Image Change Detection (IEEE TRANSACTIONS ON GEOSCIENCE AND REMOTE SENSING, VOL. 60, 2022)
+
+https://github.com/yanhengwang-heu/IEEE_TGRS_SSTFormer
+
+we only modify HyperNet and the others methods is the same, so we only upload our modified version HyerNet code.
 
 
 
